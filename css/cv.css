@@ -1,0 +1,100 @@
+p, div, li, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+}
+
+.main {
+    width: 666px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid 1px black;
+    margin-bottom: 0;
+}
+
+div.header {
+    background-color: #2251b2;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+}
+
+img.logo {
+    width: 125px;
+    position: absolute;
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+div.header > p {
+    color: white;
+    text-align: center;
+}
+
+p.job-title {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+p.name {
+    font-size: 40px;
+    font-family: serif;
+}
+
+div.sections {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.columns > .column:last-child {
+    margin-right: 0;
+}
+
+.column-1 {
+    width: 200px;
+}
+
+.column-2 {
+    width: 360px;
+}
+
+div.section {
+    display: block;
+    padding-top: 9px;
+    margin-bottom: 20px;
+    border-top: solid 2px black;
+}
+
+.section p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+p.section-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+div.section ul {
+    margin-left: 18px;
+}
+
+div.section li {
+    font-size: 12px;
+}
+
+div.experience p.title {
+    margin-bottom: 0;
+}
+
+div.experience p.description {
+    margin-left: 10px;
+}
